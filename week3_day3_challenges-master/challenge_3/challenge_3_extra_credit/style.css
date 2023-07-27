@@ -1,0 +1,43 @@
+h1 {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+#big_div {
+  margin: auto;
+  border: 5px solid black;
+  width: 516px;
+  display: flex;
+}
+
+#a, #e {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+#c, #d {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#c {
+  justify-content: flex-start;
+}
+
+#d {
+  justify-content: flex-end;
+}
